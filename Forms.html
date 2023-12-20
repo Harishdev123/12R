@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" type="image/x-icon" href="../images/car.jpg">
+</head>
+<body>
+ <fieldset >
+    <legend>SIGNUP FORM</legend>
+    <form method="post">
+        <label for="Fname">Firstname:</label>
+        <input type="text" name="Firstname" id="Fname" placeholder="" required /><br><br>
+        <hr><label for="Sname">SecondName:</label>
+        <input type="text" name="Secondname" id="Sname" placeholder=""/><br><br>
+        <hr><label>company name:</label>
+        <input type="text" name="companyName" id="CN" value="10000coders" disabled/><br><br>
+        <hr><label for="pswd">Password:</label>
+        <input type="password" name="password" id="pswd" disabled /><br><br>
+        <label for="mail">Email:</label>
+        <input type="email" name="email" id="mail" /><br><br>
+        <label for="num">Mobile Number</label>
+        <input type="tel" name="number" id="num" pattern="[0-9]{10}" /><br><br>
+        <label for="dob">DOB:</label>
+        <input type="datetime-local" name="dob" id="dob"/><br><br>
+        <label for="doc">Upload a file:</label>
+        <input type="file" name="doc" id="doc" multiple /><br><br>
+        <input type="submit"/>
+        <input type="image"  src="../images/e-mail.png" alt="Submit" width="48" height="48">
+        <button type="submit">Register</button>
+        <input type="submit" value="Signup"/>        
+    </form>
+    </fieldset>
+</body>
+</html>
+
+
+<!-- topics:
+    forms--few input types.
+    task:
+    do login and signup forms
+-->
